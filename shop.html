@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Male_Fashion Template" />
+    <meta name="keywords" content="Male_Fashion, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+    <title>Century 100</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                <a href="#">Sign in</a>
+                <a href="#">FAQs</a>
+            </div>
+        </div>
+        <div class="offcanvas__nav__option">
+            <a href="#" class="search-switch"><img src="assets/img/icon/search.png" alt="" /></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__text">
+            <p>Envío gratis, devolución de 30 días o garantía de reembolso</p>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top__left">
+                    <p>Envío gratis, devolución de 30 días o garantía de reembolso.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="assets/img/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 add-aline">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Inicio</a></li>
+                            <li><a href="./shop.html">Catálogo</a></li>
+                            <li><a href="./shop.html">Categorías</a></li>
+                            <!--<li><a href="./contact.html">Contacto</a></li>-->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="add-aline col-lg-3 col-md-3">
+                    <div class="header__nav__option">
+                        <a href="#" class="search-switch"><img src="assets/img/icon/search.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <div class="wrapper">
+        <div class="d-md-flex align-items-md-center">
+            <div class="h3">Resultados de la búsqueda</div>
+            <div class="ml-auto d-flex align-items-center views">
+                <span style="font-size: 1.5rem" class="btn text-success">
+            <span class="fa fa-th px-md-2 px-1"></span>
+                </span>
+                <span style="font-size: 1.5rem" class="btn">
+            <span class="fa fa-list-ul"></span>
+                </span>
+                <span class="green-label px-md-2 px-1">428</span>
+                <span class="text-muted">Productos</span>
+            </div>
+        </div>
+        <div class="d-lg-flex align-items-lg-center pt-2">
+            <div class="form-inline d-flex align-items-center my-2 checkbox bg-light border mx-lg-2">
+                <label class="tick">Panamá <input type="checkbox" /> </label>
+                <span class="border px-1 mx-2 mr-3 font-weight-bold count"> 12</span>
+                <select name="country" id="country" class="bg-light">
+            <option value="" hidden>Ciudad</option>
+            <option value="Panama">Panamá</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Venezuela">Venezuela</option>
+          </select>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#mobile-filter" aria-expanded="true" aria-controls="mobile-filter">
+          Filter<span class="px-1 fa fa-filter"></span>
+        </button>
+        </div>
+        <div id="mobile-filter">
+            <div class="py-3">
+                <h5 class="font-weight-bold">Categorias</h5>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category">
+                        categoria 1
+                        <span class="badge badge-primary badge-pill">328</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category">
+                        categoria 2
+                        <span class="badge badge-primary badge-pill">112</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category">
+                        categoria 3 <span class="badge badge-primary badge-pill">32</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category">
+                        categoria 4 <span class="badge badge-primary badge-pill">48</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="py-3">
+                <h5 class="font-weight-bold">Tipos de Tabaco</h5>
+                <form class="brand">
+                    <div class="form-inline d-flex align-items-center py-1">
+                        <label class="tick">Royal Fields <input type="checkbox" />
+                <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-1">
+                        <label class="tick">Tipo 2<input type="checkbox" checked />
+                <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-1">
+                        <label class="tick">Tipo 3 <input type="checkbox" checked />
+                <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-1">
+                        <label class="tick">Tipo 4 <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-1">
+                        <label class="tick">Tipo 5 <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                </form>
+            </div>
+            <div class="py-3">
+                <h5 class="font-weight-bold">Valoración de lod usuarios</h5>
+                <form class="rating">
+                    <div class="form-inline d-flex align-items-center py-2">
+                        <label class="tick"><span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> <input type="checkbox" />
+                <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-2">
+                        <label class="tick">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-2">
+                        <label class="tick"><span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-2">
+                        <label class="tick"><span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                    <div class="form-inline d-flex align-items-center py-2">
+                        <label class="tick">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <span class="fa fa-star px-1 text-muted"></span>
+                <input type="checkbox" /> <span class="check"></span>
+              </label>
+                    </div>
+                </form>
+            </div>
+            <div class="py-3">
+                <label for="amount"><h5 class="font-weight-bold">Rango de Precio:</h5></label
+          >
+          <input
+            type="text"
+            id="amount2"
+            readonly
+            style="border: 0; color: #f6931f; font-weight: bold"
+          />
+
+          <div id="slider-range2"></div>
+        </div>
+      </div>
+      <div class="content py-md-0 py-3">
+        <section id="sidebar">
+          <div class="py-3">
+            <h5 class="font-weight-bold">Categorias</h5>
+            <ul class="list-group">
+              <li
+                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"
+              >
+                categoria 1
+                <span class="badge badge-primary badge-pill">328</span>
+              </li>
+              <li
+                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"
+              >
+                categoria 2
+                <span class="badge badge-primary badge-pill">112</span>
+              </li>
+              <li
+                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"
+              >
+                categoria 3
+                <span class="badge badge-primary badge-pill">32</span>
+              </li>
+              <li
+                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"
+              >
+                categoria 4
+                <span class="badge badge-primary badge-pill">48</span>
+              </li>
+            </ul>
+          </div>
+          <div class="py-3">
+            <h5 class="font-weight-bold">Tipos de Tabaco</h5>
+            <form class="brand">
+              <div class="form-inline d-flex align-items-center py-1">
+                <label class="tick"
+                  >Tipo 1 <input type="checkbox" /> <span class="check"></span>
+                </label>
+            </div>
+            <div class="form-inline d-flex align-items-center py-1">
+                <label class="tick">Tipo 2<input type="checkbox" checked />
+                  <span class="check"></span>
+                </label>
+            </div>
+            <div class="form-inline d-flex align-items-center py-1">
+                <label class="tick">Tipo 3 <input type="checkbox" checked />
+                  <span class="check"></span>
+                </label>
+            </div>
+            <div class="form-inline d-flex align-items-center py-1">
+                <label class="tick">Tipo 4 <input type="checkbox" /> <span class="check"></span>
+                </label>
+            </div>
+            <div class="form-inline d-flex align-items-center py-1">
+                <label class="tick">Tipo 5 <input type="checkbox" /> <span class="check"></span>
+                </label>
+            </div>
+            </form>
+        </div>
+        <div class="py-3">
+            <h5 class="font-weight-bold">Valoración de los usuarios</h5>
+            <form class="rating">
+                <div class="form-inline d-flex align-items-center py-2">
+                    <label class="tick"><span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> <input type="checkbox" />
+                  <span class="check"></span>
+                </label>
+                </div>
+                <div class="form-inline d-flex align-items-center py-2">
+                    <label class="tick">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <input type="checkbox" /> <span class="check"></span>
+                </label>
+                </div>
+                <div class="form-inline d-flex align-items-center py-2">
+                    <label class="tick"><span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <input type="checkbox" /> <span class="check"></span>
+                </label>
+                </div>
+                <div class="form-inline d-flex align-items-center py-2">
+                    <label class="tick"><span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <input type="checkbox" /> <span class="check"></span>
+                </label>
+                </div>
+                <div class="form-inline d-flex align-items-center py-2">
+                    <label class="tick">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <span class="fa fa-star px-1 text-muted"></span>
+                  <input type="checkbox" /> <span class="check"></span>
+                </label>
+                </div>
+            </form>
+        </div>
+        <div class="py-3">
+            <p>
+                <label for="amount"><h5 class="font-weight-bold">Rango de Precio:</h5></label
+              >
+              <input
+                type="text"
+                id="amount"
+                readonly
+                style="border: 0; color: #f6931f; font-weight: bold"
+              />
+            </p>
+
+            <div id="slider-range"></div>
+          </div>
+        </section>
+        <!-- Products Section -->
+        <section id="products">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product2.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 pt-md-0 pt-4"
+              >
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product1.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 pt-lg-0 pt-4"
+              >
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product3.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 pt-lg-4 pt-4"
+              >
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product3.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 pt-lg-4 pt-4"
+              >
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product2.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 pt-lg-4 pt-4"
+              >
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/product1.jpg" />
+                  <div class="card-body">
+                    <h6 class="font-weight-bold pt-1">Titulo del producto</h6>
+                    <div class="text-muted description">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Obcaecati earum eligendi illo.
+                    </div>
+                    <div class="d-flex align-items-center product">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between pt-3"
+                    >
+                      <div class="d-flex flex-column">
+                        <div class="h6 font-weight-bold">36.99 USD</div>
+                      </div>
+                      <div class="btn btn-primary">Ver detalles</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__logo">
+                <a href="#"><img src="assets/img/logo.png" alt="" /></a>
+              </div>
+              <a href="#"><img src="assets/img/payment.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+            <div class="footer__widget">
+              <h6>Categorias</h6>
+              <ul>
+                <li><a href="#">Categoría 1</a></li>
+                <li><a href="#">Categoría 2</a></li>
+                <li><a href="#">Categoría 3</a></li>
+                <li><a href="#">Categoría 4</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="footer__widget">
+              <h6>Info Contacto</h6>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-phone" aria-hidden="true"></i> +50 756 4567
+                    1234</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i>
+                    correo@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem
+                    ipsum dolor</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+            <div class="footer__widget">
+              <h6>Newsletter</h6>
+              <div class="footer__newslatter">
+                <p>
+                  ¡Sé el primero en enterarte de novedades, mira libros, rebajas
+                  y promociones!
+                </p>
+                <form action="#">
+                  <input type="text" placeholder="Your email" />
+                  <button type="submit">
+                    <span class="icon_mail_alt"></span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer__copyright__text">
+              <p>
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Todos los derechos son reservados
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+      <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+          <input type="text" id="search-input" placeholder="Search here....." />
+        </form>
+      </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
